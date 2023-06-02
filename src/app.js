@@ -5,7 +5,7 @@ const geocode = require('./utils/geocode');
 const forecast = require('./utils/forecast');
 
 
-console.log(__dirname);
+
 
 const app = express();
 
