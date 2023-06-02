@@ -18,7 +18,7 @@ weatherform.addEventListener('submit', (e)=>{
             console.log(data.forecastData)
             messageOne.textContent = data.location
             weatherImg.src = data.forecastData.weather_icons[0]
-            messageTwo.textContent = `${data.forecastData.weather_descriptions} with temperature of ${data.forecastData.temperature} degree.`
+            messageTwo.textContent = `${data.forecastData.weather_descriptions} with temperature of ${data.forecastData.temperature} degree and ${data.forecastData.precip}% chance of precipitation.`
             
 
             
